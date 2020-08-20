@@ -1,1 +1,59 @@
 
+
+  .center {
+    font: 15px Arial, sans-serif;
+    margin: auto;
+    border: 4px solid white;
+    background: orange;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  .footer {
+      font: 20px Arial, sans-serif;
+      margin: auto;
+      border: 4px solid white;
+    background: orange;
+    color: white;
+    padding: 30px;
+  }
+  
+  .flex-container {
+    font: 8px Arial, sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    background-color: grey;
+    min-height: 100%;
+  }
+  .sidenav {
+     font: 15px Arial, sans-serif;
+     background-color: hsl(50, 46%, 25%);
+    -webkit-flex: 1;
+    border: 4px solid white;
+    min-width: 17%;
+    color: white;
+    flex: 1;
+  }
+  .rightnav {
+      font: 15px Arial, sans-serif;
+     background-color: hsl(50, 46%, 25%);
+     border: 4px solid white;
+    -webkit-flex: 1;
+    min-width: 17%;
+    color: white;
+    flex: 1;
+  }
+  .content {
+    background-color: rgb(166, 167, 126);
+    border: 5px solid white;
+    padding: 10px;
+    color: white;
+    -webkit-flex: 5;
+    flex: 5;
+    height: 420px;
+    font: 20px Arial, sans-serif;
+  }
+  .nav{
+      margin-left: 10%;
+      margin-top: 10%;
+  }
